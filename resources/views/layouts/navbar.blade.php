@@ -1,34 +1,34 @@
-<nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white">
-    <div>
-        <a href="#">
-           <span class="text-5xl text-black-900">Raziv.dev</span>
-        </a>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tour Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Culinary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tours & Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comunity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Review</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-    </svg>
-    <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-        <ul class="
-            pt-4
-            text-base text-gray-700
-            md:flex
-            md:justify-between 
-            md:pt-0">
-            <li>
-                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Home</a>
-            </li>
-            <li>
-                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About</a>
-            </li>
-            <li>
-                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Services</a>
-            </li>
-            <li>
-                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Articles</a>
-            </li>
-            <li>
-                <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="#">Contact s</a>
-            </li>
-        </ul>
-    </div>
+  </div>
 </nav>
